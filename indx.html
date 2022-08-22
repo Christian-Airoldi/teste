@@ -6,11 +6,15 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="description" content="Apenas um teste"/>
         	<link rel="shortcut icon" href="image/icon.ico" type="image/-icon">
-		<style>
+		<!--<style>
 			body { background: url(image/png.png); background-size: cover; }
-		</style>
+		</style> -->
 	</head>
 	<body>
-        <!--<img src="image/png.png" alt=""> -->
+		 <picture style="margin: 0px; padding: 0px; align-items: center">
+		    <source media="(max-width: 723px)" srcset="png.png">
+		    <source media="(min-width: 1100px)" srcset="png-not.png">
+		    <img src="png.png" alt="Instagram">
+		</picture>
 	</body>
 </html>
